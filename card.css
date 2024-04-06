@@ -1,0 +1,50 @@
+.cardtype2 {
+    
+    background-size: 100%;
+    height: auto;
+    width: 45vw;
+    color: yellow;
+    margin: 22px auto;
+    padding: 10px;
+    font-size: 18px;
+}
+#card11{
+    background-image: url("https://assets.architecturaldigest.in/photos/60083ed208ae763b9ae8542d/16:9/w_2560%2Cc_limit/fermented-coffee-beverage-brew-1366x768.jpg");
+}
+#card12{
+    background-image: url("https://freerangestock.com/sample/131642/christmas-gifts-and-tree-.jpg");
+}
+
+
+.cardtype2 div {
+    text-align: center;
+    color: white;
+    margin: 23px auto;
+}
+.cardtype2 div>h1{
+    color: yellow;
+}
+
+.time>span{
+    display: inline-block;
+    background-color: rgba(255, 217, 0, 0.448);
+    color: white;
+    margin: 4px;
+    padding: 8px;
+    width: 62px;
+}
+.cardtype2 button{
+    color: white;
+    background-color: green;
+    border-radius: 6px;
+    border: none;
+    width: 332px;
+}
+.cardtype2 input{
+    background-color:rgba(128, 128, 128, 0.353);
+    height: 36px;
+}
+.cardtype2 input::placeholder{
+    color: white;
+    
+}
