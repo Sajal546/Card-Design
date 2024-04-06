@@ -4,9 +4,11 @@
 }
 
 body {
-    display: flex;
     background-color: rgb(242, 240, 240);
+}
 
+.container {
+    display: flex;
 }
 
 .card {
@@ -14,8 +16,9 @@ body {
     width: 312px;
     height: auto;
     margin: 42px auto;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 12px;
+
 }
 
 img {
@@ -30,7 +33,7 @@ img {
     margin: 20px 5px;
 }
 
-span {
+.capsule span{
     border: 2px solid black;
     border-radius: 16px;
     margin: 5px;
@@ -51,12 +54,14 @@ button {
     color: rgb(23, 89, 211);
     font-weight: 700;
     background-color: rgb(204, 239, 239);
-    border:2px solid white;
+    border: none;
     cursor: pointer;
 }
- button:hover{
+
+button:hover {
     background-color: rgb(184, 222, 251);
 }
-p{
+
+p {
     margin-top: 22px;
 }
